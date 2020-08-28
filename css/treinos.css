@@ -1,0 +1,48 @@
+#area-lateral{
+	width: 27%;
+	height: 500px;
+	background: white;
+	float: right; 
+	margin-top: 10px;
+	padding: 10px; 
+}
+#area-lateral #menu{
+	text-align: center;
+}
+#area-lateral #menu a{
+	line-height: 30px;
+	border: 0px solid red;
+	display: block;
+}
+#menu a div{
+	margin: 0px auto;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%; 
+}
+#menu a .AB{
+	background: #FF8000 url(../imagens/AB.png) no-repeat center center;
+}
+#menu a .ABC{
+	background: #FF8000 url(../imagens/ABC.png) no-repeat center center;
+}
+#menu a .ABCD{
+	background: #FF8000 url(../imagens/ABCD.png) no-repeat center center;
+}
+#menu a .ABCDE{
+	background: #FF8000 url(../imagens/ABCDE.png) no-repeat center center;
+}
+#menu a .perder-peso{
+	background: #FF8000 url(../imagens/perder-peso.png) no-repeat center center;
+}
+
+#menu a li{
+	color: #000000;
+	text-transform: uppercase;
+}
+#menu a li:hover{
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: 900;
+}
