@@ -14,6 +14,7 @@ body{
 	margin: 0px auto;
 	min-width: 970px;
 	max-width: 1200px;
+
 }
 /*******************AREA LOGO E NAVBAR******************/
 header{
@@ -309,4 +310,31 @@ a{
 }
 
 /** botao voltar ***/
+
+#back a{
+	text-indent: -9000px;
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin: 1px 0px; 
+	border: 2px solid #FF8000;
+	background: url(../imagens/icon-seta-cima.png) no-repeat;
+}
+
+a[href="#top"]{
+    position:fixed;
+    top: 90%;
+    right:40px;
+}
+/*linkando paginas*/
+
+#index #home .selecionado-home,
+#treinos #home .selecionado-treinos,
+#alimentacao-body #home .selecionado-alimentacao,
+#suplementos #home .selecionado-suplementos,
+#dicas #home .selecionado-dicas{
+	background:#FF8000;
+	
+}
+/*border-radius: 10px 0px 0px 10px;*/
 

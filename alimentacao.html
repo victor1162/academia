@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/treinos.css">
 	<link rel="stylesheet" type="text/css" href="css/alimentacao.css">
-
+	<link rel="stylesheet" type="text/css" href="css/suplementacao.css">
 	<!-- LINKS FONTS-->
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
 
@@ -20,11 +20,10 @@
 	<!--[if lt IE 9]>
 	<script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
-	
 </head>
-<body >
+<body id="alimentacao-body">
 
-	<div id="container" ><!-- inicio container -->
+	<div id="container"><!-- inicio container -->
 
 		<header><!-- inicio header -->
 			<div id="area-logo">
@@ -34,32 +33,32 @@
 			</div>
 			
 
-			<nav>
-				<a href="index.html" class="border-radius">
+			<nav id="home">
+				<a href="index.html" class="border-radius selecionado-home">
 					<ul>
 						<li>Home</li>
 					</ul>
 				</a>
 
-				<a href="treinos.html">
+				<a href="treinos.html" class="selecionado-treinos">
 					<ul>
 						<li>Treinos</li>
 					</ul>
 				</a>
 
-				<a href="#">
+				<a href="alimentacao.html" class="selecionado-alimentacao">
 					<ul>
 						<li>Alimentação</li>
 					</ul>
 				</a>
 
-				<a href="">
+				<a href="suplementacao.html" class="selecionado-suplementos">
 					<ul>
 						<li>Suplementação</li>
 					</ul>
 				</a>
 
-				<a href="">
+				<a href="dicas.html" class="selecionado-dicas">
 					<ul>
 						<li>Dicas</li>
 					</ul>
@@ -79,7 +78,8 @@
 
 					<h2>Todos os alimentos que contem mais proteinas</h2>
 
-					<div class="lista-alimentos-links-centralizados">
+					<div class="lista-alimentos-links-centralizados" class="lista">
+
 						<a href="#soja">Soja</a>
 
 						<a href="#camarao">Camarão</a>

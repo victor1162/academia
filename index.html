@@ -5,9 +5,13 @@
 	<meta charset="utf-8">
 
 	<!-- FOLHA DE ESTILO -->
+	<script src="js/alimentacao.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/treinos.css">
-
+	<link rel="stylesheet" type="text/css" href="css/alimentacao.css">
+	<link rel="stylesheet" type="text/css" href="css/suplementacao.css">
 	<!-- LINKS FONTS-->
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
 
@@ -17,7 +21,7 @@
 	<script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-<body>
+<body id="index">
 
 	<div id="container"><!-- inicio container -->
 
@@ -29,32 +33,32 @@
 			</div>
 			
 
-			<nav>
-				<a href="#" class="border-radius">
+			<nav id="home">
+				<a href="#" class="border-radius selecionado-home">
 					<ul>
 						<li>Home</li>
 					</ul>
 				</a>
 
-				<a href="treinos.html">
+				<a href="treinos.html" class="selecionado-treinos">
 					<ul>
 						<li>Treinos</li>
 					</ul>
 				</a>
 
-				<a href="alimentacao.html">
+				<a href="alimentacao.html" class="selecionado-alimentacao">
 					<ul>
 						<li>Alimentação</li>
 					</ul>
 				</a>
 
-				<a href="">
+				<a href="suplementacao.html" class="selecionado-suplementos">
 					<ul>
 						<li>Suplementação</li>
 					</ul>
 				</a>
 
-				<a href="">
+				<a href="dicas.html" class="selecionado-dicas">
 					<ul>
 						<li>Dicas</li>
 					</ul>
@@ -358,6 +362,8 @@
 
 				</section>
 			</div>
+
+			
 		</div><!-- final conteudo -->
 
 		<div id="area-lateral"><!-- inicio area-lateral -->
